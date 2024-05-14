@@ -1,0 +1,5 @@
+{
+    "code-runner.defaultLanguage": "python",
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true
+}
