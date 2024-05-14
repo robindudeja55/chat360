@@ -1,8 +1,12 @@
 # chat360
 
 to get logs:
+
 curl -X GET http://127.0.0.1:5000/logs
+
+
 to add logs:
+
 curl -X POST -H "Content-Type: application/json" -d '{"level":"error", "log_string":"Example log message", "timestamp":"2024-05-14T17:30:00Z", "source":"log1.log"}' http://127.0.0.1:5000/logs
 
 
